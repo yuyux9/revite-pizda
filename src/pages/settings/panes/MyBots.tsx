@@ -228,7 +228,7 @@ function BotCard({ bot, onDelete, onUpdate }: Props) {
                                 style="icon"
                                 fileType="avatars"
                                 behaviour="upload"
-                                maxFileSize={4_000_000}
+                                maxFileSize={6_000_000}
                                 onUpload={(avatar) => editBotAvatar(avatar)}
                                 remove={() => editBotAvatar()}
                                 defaultPreview={user.generateAvatarURL(
@@ -371,7 +371,7 @@ function BotCard({ bot, onDelete, onUpdate }: Props) {
                             style="banner"
                             behaviour="upload"
                             fileType="backgrounds"
-                            maxFileSize={6_000_000}
+                            maxFileSize={8_000_000}
                             onUpload={(background) =>
                                 editBotBackground(background)
                             }
