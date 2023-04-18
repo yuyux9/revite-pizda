@@ -55,7 +55,7 @@ export function Feedback() {
                         action="chevron"
                         icon={<Group size={24} />}
                         description="You can report issues and discuss improvements with us directly here.">
-                        {"Join the Revolt Lounge"}
+                        {"Join Testers server."}
                     </CategoryButton>
                 </a>
             </Link>

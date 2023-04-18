@@ -37,10 +37,11 @@ export default function ThemeSelection() {
             {/** Allow users to change base theme */}
             <ShimThemeBaseSelector />
             {/** Provide a link to the theme shop */}
-            <Link to="/discover/themes" replace>
+            <Link to="/settings/appearance" replace>
                 <CategoryButton
                     icon={<Brush size={24} />}
                     action="chevron"
+                    disabled={true}
                     description={
                         <Text id="app.settings.pages.appearance.discover.description" />
                     }>

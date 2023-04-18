@@ -125,11 +125,12 @@ export default observer(() => {
                                     <Text id="app.home.group" />
                                 </CategoryButton>
                             </a>
-                            <Link to="/discover">
+                            <Link to="">
                                 <a>
                                     <CategoryButton
                                         action="chevron"
                                         icon={<Compass size={32} />}
+                                        disabled={true}
                                         description={
                                             <Text id="app.home.discover_desc" />
                                         }>
@@ -139,9 +140,9 @@ export default observer(() => {
                             </Link>
 
                             {client.servers.get(
-                                "01F7ZSBSFHQ8TA81725KQCSDDP",
+                                "01GY8JDAVAPT979D5B5YSNBYZ4",
                             ) ? (
-                                <Link to="/server/01F7ZSBSFHQ8TA81725KQCSDDP">
+                                <Link to="/server/01GY8JDAVAPT979D5B5YSNBYZ4">
                                     <CategoryButton
                                         action="chevron"
                                         icon={<RightArrowCircle size={32} />}
