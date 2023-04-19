@@ -304,7 +304,7 @@ export default observer(() => {
                             <a
                                 href={
                                     GIT_BRANCH !== "DETACHED"
-                                        ? `https://github.com/revoltchat/revite/tree/${GIT_BRANCH}`
+                                        ? `https://github.com/AruMoon/revite/tree/${GIT_BRANCH}`
                                         : undefined
                                 }
                                 target="_blank"
