@@ -150,7 +150,7 @@ export default function UserBadges({ badges, uid }: Props) {
                 ) : (
                     <></>
                 )}
-                {uid === "01EX2NCWQ0CHS3QJF0FEQS1GR4" ? (
+                {uid === "01GY8GR8163QXQQCDAZRK3CSYE" ? (
                     <Tooltip content="🦝">
                         <img src="/assets/badges/raccoon.svg" />
                     </Tooltip>
