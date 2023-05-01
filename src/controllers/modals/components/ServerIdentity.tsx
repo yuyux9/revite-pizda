@@ -101,7 +101,7 @@ export default observer(
                                 style="icon"
                                 fileType="avatars"
                                 behaviour="upload"
-                                maxFileSize={6_000_000}
+                                maxFileSize={4_000_000}
                                 onUpload={(avatar) =>
                                     member.edit({ avatar }).then(noop)
                                 }
