@@ -83,7 +83,7 @@ jobs:
               id: meta
               uses: docker/metadata-action@v3
               with:
-                  images: yuyux9/client, ghcr.io/yuyux9/client
+                  images: eva13/client, ghcr.io/yuyux9/client
             - name: Login to DockerHub
               uses: docker/login-action@v1
               with:
